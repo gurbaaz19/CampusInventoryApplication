@@ -187,7 +187,7 @@
 <!--                            android:layout_height="wrap_content"-->
 <!--                            tools:checked="false" />-->
 
-<!--                        <com.projectfire.bookmybook.utilities.TextViewMontserratRegular-->
+<!--                        <com.projectfire.campusinventoryapplication.utilities.TextViewMontserratRegular-->
 <!--                            android:id="@+id/tv_terms_condition"-->
 <!--                            android:layout_width="wrap_content"-->
 <!--                            android:layout_height="wrap_content"-->

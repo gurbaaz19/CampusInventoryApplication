@@ -1,6 +1,6 @@
 package com.projectfire.campusinventoryappliction.ui.fragments
 
-//import com.projectfire.bookmybook.ui.activities.ProductDetailsActivity
+//import com.projectfire.campusinventoryapplication.ui.activities.ProductDetailsActivity
 import android.content.Intent
 import android.os.Bundle
 import android.view.*

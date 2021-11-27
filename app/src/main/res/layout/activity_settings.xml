@@ -66,7 +66,7 @@
                 android:textSize="@dimen/settings_name_textSize"
                 tools:text="Gurbaaz Singh Gill" />
 
-<!--            <com.projectfire.bookmybook.custom_view_items.TextViewCustomRegular-->
+<!--            <com.projectfire.campusinventoryapplication.custom_view_items.TextViewCustomRegular-->
 <!--                android:id="@+id/tv_gender"-->
 <!--                android:layout_width="wrap_content"-->
 <!--                android:layout_height="wrap_content"-->
@@ -102,7 +102,7 @@
 <!--                android:orientation="horizontal"-->
 <!--                android:padding="@dimen/settings_address_padding">-->
 
-<!--                <com.projectfire.bookmybook.custom_view_items.ButtonMontserratBold-->
+<!--                <com.projectfire.campusinventoryapplication.custom_view_items.ButtonMontserratBold-->
 <!--                    android:layout_width="0dp"-->
 <!--                    android:layout_height="wrap_content"-->
 <!--                    android:layout_margin="@dimen/settings_lbl_addresses_margin"-->
@@ -120,7 +120,7 @@
 
 <!--            </LinearLayout>-->
 
-<!--                            <com.projectfire.bookmybook.custom_view_items.ButtonCustomBold-->
+<!--                            <com.projectfire.campusinventoryapplication.custom_view_items.ButtonCustomBold-->
 <!--                                android:layout_width="match_parent"-->
 <!--                                android:layout_height="wrap_content"-->
 <!--                                android:layout_gravity="center"-->

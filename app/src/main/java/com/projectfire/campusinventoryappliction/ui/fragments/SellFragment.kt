@@ -10,7 +10,7 @@ import com.projectfire.campusinventoryappliction.R
 import com.projectfire.campusinventoryappliction.FirebaseFunctionsClass
 import com.projectfire.campusinventoryappliction.models.Product
 import com.projectfire.campusinventoryappliction.ui.activities.AddProductActivity
-//import com.projectfire.bookmybook.ui.activities.AddProductActivity
+//import com.projectfire.campusinventoryapplication.ui.activities.AddProductActivity
 import com.projectfire.campusinventoryappliction.ui.adapters.SellListAdapter
 import kotlinx.android.synthetic.main.fragment_sell.*
 
