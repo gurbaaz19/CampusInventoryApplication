@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "515090311689",
-    "project_id": "book-my-book-eb3da",
-    "storage_bucket": "book-my-book-eb3da.appspot.com"
+    "project_number": "577158282663",
+    "project_id": "campusinventoryapplication",
+    "storage_bucket": "campusinventoryapplication.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:515090311689:android:32697aaab9d215177866d8",
+        "mobilesdk_app_id": "1:577158282663:android:32ed62fbe36c7d311c8a82",
         "android_client_info": {
-          "package_name": "com.projectfire.bookmybook"
+          "package_name": "com.projectfire.campusinventoryappliction"
         }
       },
       "oauth_client": [
         {
-          "client_id": "515090311689-1neqfl8jt0e9m18tnf9vfd4er06ivpqr.apps.googleusercontent.com",
+          "client_id": "577158282663-femsi4dtfo0vet56sfcb89b542sl7apg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.projectfire.bookmybook",
-            "certificate_hash": "115129befaa12cc2535e0a3d0c15b3abe3555e2d"
+            "package_name": "com.projectfire.campusinventoryappliction",
+            "certificate_hash": "1590128672b27b3d1c0fa08771f28cd35895b57e"
           }
         },
         {
-          "client_id": "515090311689-nbgbrqdajrni1fd8f7ne9v8c0mbcebp0.apps.googleusercontent.com",
+          "client_id": "577158282663-m3hb4ak0r7qu552jphil5bnfbnr0ps0q.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCg1omyBRePVifhX0lgt9qRi9H6kD59g0Q"
+          "current_key": "AIzaSyDShoaidIOTKCvSVokFBlfp3RLJTDhUnTM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "515090311689-nbgbrqdajrni1fd8f7ne9v8c0mbcebp0.apps.googleusercontent.com",
+              "client_id": "577158282663-m3hb4ak0r7qu552jphil5bnfbnr0ps0q.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
