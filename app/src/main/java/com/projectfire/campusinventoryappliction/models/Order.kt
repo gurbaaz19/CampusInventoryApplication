@@ -13,8 +13,6 @@ data class Order(
     val mobile: String ="",
     val title: String = "",
     val image: String = "",
-    val sub_total_amount: String = "",
-    val service_charge: String = "",
     val total_amount: String = "",
     val date: String = "",
     var order_id: String ="",

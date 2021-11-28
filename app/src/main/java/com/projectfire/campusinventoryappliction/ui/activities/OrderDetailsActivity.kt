@@ -42,12 +42,9 @@ class OrderDetailsActivity : AppCompatActivity() {
         tv_order_id.text = order.order_id
         tv_order_full_name.text = order.user_name
         tv_order_date.text = order.date
-        tv_order_address.text = "${order.address}, ${order.bitsid}"
+        tv_order_address.text = "${order.address}"
         tv_order_mobile_number.text =order.mobile
-        tv_sub_total.text = "₹${order.sub_total_amount}"
-        tv_order_service.text= "₹${order.service_charge}"
         tv_total_amount.text= "₹${order.total_amount}"
-
         rv_ordered_items.layoutManager = LinearLayoutManager(this@OrderDetailsActivity,LinearLayoutManager.HORIZONTAL,false)
         rv_ordered_items.setHasFixedSize(true)
 

@@ -553,8 +553,6 @@ class FirebaseFunctionsClass {
                 item.image,
                 order.order_id,
                 order.date,
-                order.sub_total_amount,
-                order.service_charge,
                 order.total_amount,
                 order.address,
                 order.bitsid,

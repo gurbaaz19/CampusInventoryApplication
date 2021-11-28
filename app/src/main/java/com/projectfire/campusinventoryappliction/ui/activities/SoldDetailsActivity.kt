@@ -41,7 +41,7 @@ class SoldDetailsActivity : AppCompatActivity() {
         tv_sold_id.text = sold.order_id
         tv_sold_full_name.text = sold.name
         tv_sold_date.text = sold.order_date
-        tv_sold_address.text = "${sold.address}, ${sold.bitsID}"
+        tv_sold_address.text = "${sold.address}"
         tv_sold_mobile_number.text = sold.mobile
         var totalCost = (((sold.price).toDouble()) * ((sold.sold_quantity).toDouble())).toString()
         tv_sold_quantity.text = sold.sold_quantity

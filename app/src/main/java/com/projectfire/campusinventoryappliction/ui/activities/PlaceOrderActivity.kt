@@ -116,14 +116,11 @@ class PlaceOrderActivity : BaseActivity() {
         var temp1 = (mSubTotal * 100).toInt()
         mSubTotal = (temp1.toDouble()) / 100.0
 
-        tv_checkout_sub_total.text = "₹$mSubTotal"
-        tv_checkout_service_charge.text = "₹50.0"
-
         if (mSubTotal > 0) {
             tv_no_cart_item_found.visibility = View.GONE
             rv_cart_list_items.visibility = View.VISIBLE
             ll_checkout_place_order.visibility = View.VISIBLE
-            mTotal = mSubTotal + 50.0
+            mTotal = mSubTotal
             var temp2 = (mTotal * 100).toInt()
             mTotal = (temp2.toDouble()) / 100.0
             tv_checkout_total_amount.text = "₹$mTotal"
@@ -154,11 +151,9 @@ class PlaceOrderActivity : BaseActivity() {
             mUser.mobile.toString(),
             "Order of ${mUser.firstName} at ${orderDate}",
             mCartList[0].image,
-            mSubTotal.toString(),
-            "50.0",
             mTotal.toString(),
             orderDate,
-            "${mUser.firstName}/${System.currentTimeMillis()}"
+            "${mUser.email.subSequence(0,9)}/${System.currentTimeMillis()}"
         )
 
         FirebaseFunctionsClass().placeOrder(this@PlaceOrderActivity, mOrder)

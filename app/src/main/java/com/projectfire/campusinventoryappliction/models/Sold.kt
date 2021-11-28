@@ -12,8 +12,6 @@ data class Sold(
     val image: String = "",
     val order_id: String = "",
     val order_date: String = "",
-    val sub_total_amount: String = "",
-    val service_charge: String = "",
     val total_amount: String = "",
     val address: String ="",
     val bitsID: String ="",
