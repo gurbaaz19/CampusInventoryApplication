@@ -12,6 +12,6 @@ class User(
     val image: String = "",
     val mobile: Long = 0,
     val address: String = "",
-    val bitsID: String ="",
+    val bits_id: String ="",
     val profileCompleted: Int = 0
 ): Parcelable

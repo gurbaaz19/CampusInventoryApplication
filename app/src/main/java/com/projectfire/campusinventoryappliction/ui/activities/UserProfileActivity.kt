@@ -59,8 +59,8 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
 //                rb_female.isChecked = true
 //            }
 
-            if (mUserDetails.bitsID.length==13) {
-                et_bitsid.setText(mUserDetails.bitsID)
+            if (mUserDetails.bits_id.length==13) {
+                et_bitsid.setText(mUserDetails.bits_id)
             }
 
             if (mUserDetails.address != ""){
@@ -149,7 +149,7 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
             userHashMap[Constants.ADDRESS] = address
         }
 
-        if (bitsID.isNotEmpty() && bitsID != mUserDetails.bitsID) {
+        if (bitsID.isNotEmpty() && bitsID != mUserDetails.bits_id) {
             userHashMap[Constants.BITS_ID] = bitsID
         }
 
