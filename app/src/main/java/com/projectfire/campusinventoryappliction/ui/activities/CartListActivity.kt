@@ -79,7 +79,6 @@ class CartListActivity : BaseActivity() {
             val cartListAdapter = CartItemsListAdapter(this@CartListActivity, mCartListItems)
             rv_cart_items_list.adapter = cartListAdapter
             var subTotal = 0.0
-            var service = 50.0
 
             for (item in mCartListItems) {
                 val availableQuantity = item.stock_quantity.toInt()
@@ -94,13 +93,10 @@ class CartListActivity : BaseActivity() {
 //            var temp1 = (gst*100).toInt()
 //            gst = (temp1.toDouble())/100.0
 
-            tv_sub_total.text = "₹$subTotal"
-            tv_gst.text = "₹$service"
-
             if (subTotal > 0) {
                 ll_checkout.visibility = View.VISIBLE
 
-                var total = subTotal + service
+                var total = subTotal
 
                 var temp2 = (total * 100).toInt()
                 total = (temp2.toDouble()) / 100.0

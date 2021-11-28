@@ -182,6 +182,6 @@
         android:text="@string/credits"
         android:textColor="@color/white"
         android:gravity="center"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:paddingBottom="24dp"/>
 </LinearLayout>

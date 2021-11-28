@@ -68,7 +68,7 @@ android:paddingBottom="?attr/actionBarSize">
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@color/colorImageViewBackground"
-                                    android:src="@drawable/book"
+                                    android:src="@drawable/item"
                                     android:contentDescription="@string/content_description"
                                     android:scaleType="fitCenter" />
 

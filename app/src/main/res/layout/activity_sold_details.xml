@@ -42,7 +42,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="@string/sold_book_details"
+                    android:text="@string/sold_item_details"
                     android:textColor="@color/colorPrimaryText"
                     android:textSize="@dimen/title_textSize" />
 
@@ -59,7 +59,7 @@
                     app:layout_constraintBottom_toTopOf="@id/ll_checkout_place_order"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:src="@drawable/book"/>
+                    android:src="@drawable/item"/>
 
 
                 <LinearLayout
@@ -238,7 +238,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="@string/lbl_price_per_book"
+                            android:text="@string/lbl_price_per_item"
                             android:textColor="@color/item_value_text_color"
                             android:textSize="@dimen/checkout_label_value_textSize" />
 

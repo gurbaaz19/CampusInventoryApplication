@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Campus Inventory Application</string>
+    <string name="app_name">Campus Buy/Sell Application</string>
 
     <string name="content_description">image</string>
     <string name="title_login">LOGIN</string>
@@ -32,7 +32,7 @@
     <string name="err_msg_agree_terms_and_condition">Please agree to the terms and condition.</string>
     <string name="registery_successfull">You are registered successfully. Your user id is</string>
 
-    <string name="please_wait">Please Wait&#8230;</string>
+    <string name="please_wait">Hold on&#8230;</string>
 
     <string name="title_forgot_password">FORGOT PASSWORD?</string>
     <string name="forgot_password_title_description">Please enter your email address. You will receive a link to change the password.</string>
@@ -50,7 +50,7 @@
     <string name="read_storage_permission_granted">Good Going, you just accepted the permission for storage.</string>
     <string name="read_storage_permission_denied">Oops, you just denied the permission for storage. You can also allow it from settings.</string>
 
-    <string name="image_selection_failed">Image selection Failed!</string>
+    <string name="image_selection_failed">Image selection Failed.</string>
 
     <string name="err_msg_enter_mobile_number">Please enter your mobile number.</string>
 
@@ -74,14 +74,14 @@
 
     <string name="title_edit_profile">EDIT PROFILE</string>
 
-    <string name="title_add_product">ADD A BOOK</string>
-    <string name="et_hint_product_title">Book Title</string>
-    <string name="et_hint_product_publisher">Publisher</string>
+    <string name="title_add_product">ADD AN ITEM</string>
+    <string name="et_hint_product_title">Item Name</string>
+    <string name="et_hint_product_publisher">Brand/Author/Publisher</string>
     <string name="et_hint_product_price">Price (₹)</string>
-    <string name="et_hint_product_isbn">ISBN (OPTIONAL)</string>
+    <string name="et_hint_product_isbn">Identification Code</string>
     <string name="et_hint_product_description">Description</string>
     <string name="et_hint_product_quantity">Quantity</string>
-    <string name="tv_product_condition">Condition of Book/Product</string>
+    <string name="tv_product_condition">Condition of Product</string>
     <string name="rb_good">Good</string>
     <string name="rb_bad">Bad</string>
     <string name="rb_average">Average</string>
@@ -94,7 +94,7 @@
     <string name="err_msg_enter_product_quantity">Please enter the quantity available.</string>
 
     <string name="product_uploaded_success_message">Your product is uploaded successfully.</string>
-    <string name="no_products_added_yet">No products added yet!</string>
+    <string name="no_products_added_yet">No products added yet.</string>
     <string name="no_dashboard_item_found">No items found!</string>
 
     <string name="product_delete_success_message">Your product is deleted successfully.</string>
@@ -108,13 +108,12 @@
     <string name="lbl_product_details_stock_quantity">Stock Quantity</string>
 
     <string name="btn_lbl_add_to_cart">ADD TO CART</string>
-    <string name="success_message_item_added_to_cart">Product is added to your cart.</string>
+    <string name="success_message_item_added_to_cart">Item is added to your cart.</string>
     <string name="btn_lbl_go_to_cart">GO TO CART</string>
 
     <string name="title_my_cart">MY CART</string>
     <string name="no_cart_item_found">No item found in cart!</string>
     <string name="lbl_subtotal">Subtotal</string>
-    <string name="lbl_service_charge">Service Charge (UwU)</string>
     <string name="lbl_total_amount">Total Amount</string>
     <string name="btn_lbl_checkout">Checkout</string>
     <string name="action_cart">My Cart</string>
@@ -122,7 +121,7 @@
     <string name="good_condition">Good Condition</string>
     <string name="bad_condition">Bad Condition</string>
     <string name="average_condition">Average Condition</string>
-    <string name="credits">Made By Group 8-2 For the fulfilment of CSF213 OOP Course Requirements</string>
+    <string name="credits">Made By Group 8-2 for the CSF213 Course </string>
 
     <string name="lbl_out_of_stock">OUT OF STOCK</string>
     <string name="msg_item_removed_successfully">Item removed successfully</string>
@@ -141,7 +140,7 @@
     <string name="err_msg_enter_bitsid">Please enter your BITS ID.</string>
     <string name="title_place_order">PLACE ORDER</string>
 
-    <string name="no_orders_placed_yet">No orders placed !!!</string>
+    <string name="no_orders_placed_yet">No orders placed.</string>
     <string name="order_id">Order ID</string>
     <string name="order_date">Order Date</string>
     <string name="status">STATUS</string>
@@ -149,16 +148,16 @@
     <string name="order_status_pending">PENDING</string>
     <string name="order_status_delivered">DELIVERED</string>
     <string name="title_order_details">ORDER DETAILS</string>
-    <string name="title_sold">SOLD BOOKS</string>
-    <string name="no_book_sold">No Book Sold!!!</string>
-    <string name="title_transaction">TRANSACTIONS</string>
-    <string name="title_Transaction">Transactions</string>
+    <string name="title_sold">SOLD ITEMS</string>
+    <string name="no_book_sold">No item sold.</string>
+    <string name="title_transaction">HISTORY</string>
+    <string name="title_Transaction">History</string>
     <string name="title_buy">BUY</string>
     <string name="title_sell">SELL</string>
     <string name="title_Sold">Sold</string>
-    <string name="sold_book_details">SOLD BOOK DETAILS</string>
+    <string name="sold_item_details">SOLD ITEM DETAILS</string>
     <string name="lbl_book_price">Book Price</string>
     <string name="order_quantity">Order Quantity</string>
-    <string name="lbl_price_per_book">Price Per Book</string>
+    <string name="lbl_price_per_item">Price Per Item</string>
     <string name="err_msg_enter_bitsid_length">Enter a valid BITS ID</string>
 </resources>
