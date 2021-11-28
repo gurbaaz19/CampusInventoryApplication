@@ -557,7 +557,7 @@ class FirebaseFunctionsClass {
                 order.service_charge,
                 order.total_amount,
                 order.address,
-                order.pin,
+                order.bitsid,
                 order.user_name,
                 order.mobile,
 /**/

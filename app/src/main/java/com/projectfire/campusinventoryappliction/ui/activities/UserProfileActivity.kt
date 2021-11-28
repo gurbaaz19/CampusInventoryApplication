@@ -53,14 +53,14 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
             if (mUserDetails.mobile != 0L) {
                 et_mobile_number.setText(mUserDetails.mobile.toString())
             }
-            if (mUserDetails.gender == Constants.MALE) {
-                rb_male.isChecked = true
-            } else {
-                rb_female.isChecked = true
-            }
+//            if (mUserDetails.gender == Constants.MALE) {
+//                rb_male.isChecked = true
+//            } else {
+//                rb_female.isChecked = true
+//            }
 
-            if (mUserDetails.pin != 0L) {
-                et_pin.setText(mUserDetails.pin.toString())
+            if (mUserDetails.bitsID.length==13) {
+                et_bitsid.setText(mUserDetails.bitsID)
             }
 
             if (mUserDetails.address != ""){
@@ -129,13 +129,13 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
 
         val mobileNumber = et_mobile_number.text.toString().trim { it <= ' ' }
         val address = et_address.text.toString().trim { it <= ' ' }
-        val pin = et_pin.text.toString().trim { it <= ' ' }
+        val bitsID = et_bitsid.text.toString().trim { it <= ' ' }
 
-        val gender = if (rb_male.isChecked) {
-            Constants.MALE
-        } else {
-            Constants.FEMALE
-        }
+//        val gender = if (rb_male.isChecked) {
+//            Constants.MALE
+//        } else {
+//            Constants.FEMALE
+//        }
 
         if (mUserProfileImageURL.isNotEmpty()) {
             userHashMap[Constants.IMAGE] = mUserProfileImageURL
@@ -149,12 +149,12 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
             userHashMap[Constants.ADDRESS] = address
         }
 
-        if (pin.isNotEmpty() && pin != mUserDetails.pin.toString()) {
-            userHashMap[Constants.PIN] = pin.toLong()
+        if (bitsID.isNotEmpty() && bitsID != mUserDetails.bitsID) {
+            userHashMap[Constants.BITS_ID] = bitsID
         }
 
-        if (gender.isNotEmpty() && gender != mUserDetails.gender)
-            userHashMap[Constants.GENDER] = gender
+//        if (gender.isNotEmpty() && gender != mUserDetails.gender)
+//            userHashMap[Constants.GENDER] = gender
 
         userHashMap[Constants.COMPLETE_PROFILE] = 1
 
@@ -216,8 +216,12 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
                 showSnackBar(resources.getString(R.string.err_msg_enter_address), true)
                 false
             }
-            TextUtils.isEmpty(et_pin.text.toString().trim { it <= ' ' }) -> {
-                showSnackBar(resources.getString(R.string.err_msg_enter_pin), true)
+            TextUtils.isEmpty(et_bitsid.text.toString().trim { it <= ' ' }) -> {
+                showSnackBar(resources.getString(R.string.err_msg_enter_bitsid), true)
+                false
+            }
+            et_bitsid.text.toString().length!=13->{
+                showSnackBar(resources.getString(R.string.err_msg_enter_bitsid_length), true)
                 false
             }
             else -> {

@@ -63,7 +63,7 @@ class PlaceOrderActivity : BaseActivity() {
 
     fun userDetailsSuccess(user: User) {
 
-        tv_checkout_address.text = "${user.address}, ${user.pin}"
+        tv_checkout_address.text = "${user.address}, ${user.bitsID}"
         tv_checkout_full_name.text = "${user.firstName} ${user.lastName}"
         tv_checkout_mobile_number.text = user.mobile.toString()
 
@@ -150,7 +150,7 @@ class PlaceOrderActivity : BaseActivity() {
             "${mUser.firstName} ${mUser.lastName}",
             mCartList,
             mUser.address,
-            mUser.pin.toString(),
+            mUser.bitsID,
             mUser.mobile.toString(),
             "Order of ${mUser.firstName} at ${orderDate}",
             mCartList[0].image,

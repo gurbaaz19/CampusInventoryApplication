@@ -39,13 +39,15 @@
         android:id="@+id/nav_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/navigation_pane_background"
         android:elevation="8dp"
         app:itemIconTint="@drawable/bottom_navigation_color_selector"
-        app:itemTextAppearanceActive="@color/colorPrimary"
-        app:itemTextColor="@color/colorPrimary"
+        app:itemTextAppearanceActive="@color/colorSecondaryDark"
+        app:itemTextColor="@color/colorSecondaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -54,10 +56,6 @@
 </LinearLayout>
 
 <!--<?xml version="1.0" encoding="utf-8"?>
-
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"

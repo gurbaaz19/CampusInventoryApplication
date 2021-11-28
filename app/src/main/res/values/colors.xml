@@ -8,11 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimary">#5CCAE8</color>
 <!--    <color name="colorPrimaryDark">#2962FF</color>-->
-    <color name="colorPrimaryDark">#BC4019</color>
-    <color name="colorSecondary">#f2bf2c</color>
-    <color name="colorSecondaryDark">#f2a62c</color>
+    <color name="colorPrimaryDark">#2B2B88</color>
+    <color name="colorSecondary">#FFE275</color>
+    <color name="colorSecondaryDark">#CF2027</color>
     <color name="colorPrimaryText">#222934</color>
     <color name="colorSecondaryText">#989898</color>
     <color name="colorOrange">#f4442d</color>

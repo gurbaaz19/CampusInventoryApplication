@@ -28,13 +28,10 @@ object Constants {
     const val FIRST_NAME: String = "firstName"
     const val LAST_NAME: String = "lastName"
     const val MOBILE: String = "mobile"
-    const val GENDER: String = "gender"
-    const val MALE: String = "male"
-    const val FEMALE: String = "female"
     const val IMAGE: String = "image"
     const val USER_PROFILE_IMAGE: String = "User_Profile_Image"
     const val ADDRESS: String = "address"
-    const val PIN: String = "pin"
+    const val BITS_ID: String = "bits_id"
 
     const val USER_ID: String = "user_id"
 

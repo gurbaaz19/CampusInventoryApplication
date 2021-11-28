@@ -230,70 +230,70 @@
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/til_pin"
+                        android:id="@+id/til_bitsid"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="25dp"
                         android:layout_marginEnd="16dp"
-                        android:hint="@string/et_hint_pin"
+                        android:hint="@string/et_hint_bitsid"
                         android:textColorHint="@color/colorSecondaryText"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/til_address">
 
                         <com.projectfire.campusinventoryappliction.custom_view_items.EditTextCustomBold
-                            android:id="@+id/et_pin"
+                            android:id="@+id/et_bitsid"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:inputType="phone"
-                            android:maxLength="6"
+                            android:inputType="textCapCharacters"
+                            android:maxLength="13"
                             android:padding="@dimen/et_padding"
                             android:textColor="@color/colorPrimaryText"
                             android:textSize="@dimen/et_textSize" />
                     </com.google.android.material.textfield.TextInputLayout>
 
-                    <RadioGroup
-                        android:id="@+id/rg_gender"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/profile_radio_button_height"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="25dp"
-                        android:layout_marginEnd="16dp"
-                        android:orientation="horizontal"
-                        app:layout_constraintBottom_toTopOf="@id/btn_submit"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/til_pin">
+<!--                    <RadioGroup-->
+<!--                        android:id="@+id/rg_gender"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/profile_radio_button_height"-->
+<!--                        android:layout_marginStart="16dp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:layout_marginEnd="16dp"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        app:layout_constraintBottom_toTopOf="@id/btn_submit"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/til_pin">-->
 
-                        <com.projectfire.campusinventoryappliction.custom_view_items.RadioButtonCustomBold
-                            android:id="@+id/rb_male"
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginEnd="@dimen/profile_radio_button_marginStartEnd"
-                            android:layout_weight="1"
-                            android:background="@drawable/drawable_gender_tab_selector"
-                            android:button="@null"
-                            android:checked="true"
-                            android:gravity="center"
-                            android:text="@string/rb_lbl_male"
-                            android:textColor="@drawable/drawable_gender_tab_text_color_selector"
-                            android:textStyle="bold" />
+<!--                        <com.projectfire.campusinventoryappliction.custom_view_items.RadioButtonCustomBold-->
+<!--                            android:id="@+id/rb_male"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_marginEnd="@dimen/profile_radio_button_marginStartEnd"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@drawable/drawable_gender_tab_selector"-->
+<!--                            android:button="@null"-->
+<!--                            android:checked="true"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="@string/rb_lbl_male"-->
+<!--                            android:textColor="@drawable/drawable_gender_tab_text_color_selector"-->
+<!--                            android:textStyle="bold" />-->
 
-                        <com.projectfire.campusinventoryappliction.custom_view_items.RadioButtonCustomBold
-                            android:id="@+id/rb_female"
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="@dimen/profile_radio_button_marginStartEnd"
-                            android:layout_weight="1"
-                            android:background="@drawable/drawable_gender_tab_selector"
-                            android:button="@null"
-                            android:gravity="center"
-                            android:text="@string/rb_lbl_female"
-                            android:textColor="@drawable/drawable_gender_tab_text_color_selector"
-                            android:textStyle="bold" />
-                    </RadioGroup>
+<!--                        <com.projectfire.campusinventoryappliction.custom_view_items.RadioButtonCustomBold-->
+<!--                            android:id="@+id/rb_female"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_marginStart="@dimen/profile_radio_button_marginStartEnd"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@drawable/drawable_gender_tab_selector"-->
+<!--                            android:button="@null"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="@string/rb_lbl_female"-->
+<!--                            android:textColor="@drawable/drawable_gender_tab_text_color_selector"-->
+<!--                            android:textStyle="bold" />-->
+<!--                    </RadioGroup>-->
 
                     <com.projectfire.campusinventoryappliction.custom_view_items.ButtonCustomBold
                         android:id="@+id/btn_submit"
@@ -315,7 +315,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/rg_gender" />
+                        app:layout_constraintTop_toBottomOf="@id/til_bitsid" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </ScrollView>

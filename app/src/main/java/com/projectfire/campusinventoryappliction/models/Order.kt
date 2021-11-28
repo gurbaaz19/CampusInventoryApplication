@@ -9,7 +9,7 @@ data class Order(
     val user_name: String = "",
     val items: ArrayList<CartItem> = ArrayList(),
     val address: String = "",
-    val pin: String = "",
+    val bitsid: String = "",
     val mobile: String ="",
     val title: String = "",
     val image: String = "",

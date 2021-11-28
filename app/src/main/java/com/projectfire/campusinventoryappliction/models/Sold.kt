@@ -16,7 +16,7 @@ data class Sold(
     val service_charge: String = "",
     val total_amount: String = "",
     val address: String ="",
-    val pin: String ="",
+    val bitsID: String ="",
     val name: String ="",
     val mobile: String ="",
     var id: String = "",
