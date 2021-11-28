@@ -10,7 +10,6 @@ data class CartItem(
     val product_id: String = "",
     val title: String = "",
     val publisher: String = "",
-    val isbn: String = "",
     val price: String = "",
     val image: String = "",
     var cart_quantity: String = "",

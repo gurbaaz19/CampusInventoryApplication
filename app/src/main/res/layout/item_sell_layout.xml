@@ -68,14 +68,6 @@
             android:textSize="@dimen/rv_item_price_textSize"
             tools:text="Condition" />
 
-        <com.projectfire.campusinventoryappliction.custom_view_items.TextViewCustomRegular
-            android:id="@+id/tv_item_isbn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/item_value_text_color"
-            android:textSize="@dimen/rv_item_price_textSize"
-            tools:text="ISBN" />
-
         <com.projectfire.campusinventoryappliction.custom_view_items.TextViewCustomBold
             android:id="@+id/tv_item_price"
             android:layout_width="match_parent"

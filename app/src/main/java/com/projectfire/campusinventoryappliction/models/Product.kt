@@ -9,7 +9,6 @@ data class Product(
     val user_name: String = "",
     val title: String = "",
     val publisher: String = "",
-    val isbn: String = "",
     val price: String = "",
     val condition: String= "",
     val description: String = "",

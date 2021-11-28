@@ -219,7 +219,6 @@ class AddProductActivity : BaseActivity(), View.OnClickListener {
             username,
             et_product_title.text.toString().trim { it <= ' ' },
             et_product_publisher.text.toString().trim { it <= ' ' },
-            et_product_isbn.text.toString().trim { it <= ' ' },
             et_product_price.text.toString().trim { it <= ' ' },
             condition,
             et_product_description.text.toString().trim { it <= ' ' },

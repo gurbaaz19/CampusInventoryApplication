@@ -92,14 +92,6 @@
                     tools:text="Book Publisher" />
 
                 <com.projectfire.campusinventoryappliction.custom_view_items.TextViewCustomRegular
-                    android:id="@+id/tv_product_details_isbn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/item_value_text_color"
-                    android:textSize="@dimen/product_details_price_textSize"
-                    tools:text="ISBN" />
-
-                <com.projectfire.campusinventoryappliction.custom_view_items.TextViewCustomRegular
                     android:id="@+id/tv_product_details_condition"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

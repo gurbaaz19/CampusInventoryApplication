@@ -37,11 +37,6 @@ open class CartItemsListAdapter(
             holder.itemView.tv_cart_item_price.text = "₹${model.price}"
             holder.itemView.tv_cart_item_publisher.text = model.publisher
             holder.itemView.tv_cart_quantity.text = model.cart_quantity
-            if (model.isbn == "") {
-                holder.itemView.tv_cart_item_isbn.text = model.isbn
-            } else {
-                holder.itemView.tv_cart_item_isbn.text = "ISBN: ${model.isbn}"
-            }
 
             if (model.cart_quantity == "0") {
                 holder.itemView.ib_remove_cart_item.visibility = View.GONE

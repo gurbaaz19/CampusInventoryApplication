@@ -57,15 +57,6 @@
             android:textSize="@dimen/cart_item_price_textSize"
             tools:text="Cart Book Publisher" />
 
-        <com.projectfire.campusinventoryappliction.custom_view_items.TextViewCustomRegular
-            android:id="@+id/tv_cart_item_isbn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/item_value_text_color"
-            android:textSize="@dimen/cart_item_price_textSize"
-            tools:text="Cart Book ISBN" />
-
-
         <LinearLayout
             android:id="@+id/ll_update_cart_quantity"
             android:layout_width="match_parent"

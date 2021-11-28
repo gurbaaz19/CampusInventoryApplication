@@ -83,11 +83,7 @@ class ProductDetailsActivity : BaseActivity(), View.OnClickListener {
                 tv_product_details_condition.text = "Average Condition"
             }
         }
-        if (product.isbn == "") {
-            tv_product_details_isbn.text = product.isbn
-        } else {
-            tv_product_details_isbn.text = "ISBN: ${product.isbn}"
-        }
+
 
         if (product.stock_quantity.toInt() == 0) {
             hideProgressDialog()
@@ -118,7 +114,6 @@ class ProductDetailsActivity : BaseActivity(), View.OnClickListener {
             mProductID,
             mProductDetails.title,
             mProductDetails.publisher,
-            mProductDetails.isbn,
             mProductDetails.price,
             mProductDetails.image,
             Constants.DEFAULT_CART_QUANTITY

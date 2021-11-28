@@ -46,11 +46,7 @@ open class SellListAdapter(
                 }
             }
             holder.itemView.tv_item_price.text = "₹${model.price}"
-            if (model.isbn == "") {
-                holder.itemView.tv_item_isbn.text = model.isbn
-            } else {
-                holder.itemView.tv_item_isbn.text = "ISBN: ${model.isbn}"
-            }
+
             holder.itemView.ib_delete_product.setOnClickListener {
                 fragment.deleteProduct(model.product_id)
             }
