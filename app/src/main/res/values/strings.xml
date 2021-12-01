@@ -87,8 +87,8 @@
     <string name="rb_average">Average</string>
 
     <string name="err_msg_select_product_image">Please select an image.</string>
-    <string name="err_msg_enter_product_title">Please enter the book title.</string>
-    <string name="err_msg_enter_product_publisher">Please enter the publisher.</string>
+    <string name="err_msg_enter_product_title">Please enter the item name.</string>
+    <string name="err_msg_enter_product_publisher">Please fill the brand/author input box.</string>
     <string name="err_msg_enter_product_price">Please enter the price.</string>
     <string name="err_msg_enter_product_description">Please enter a description.</string>
     <string name="err_msg_enter_product_quantity">Please enter the quantity available.</string>
@@ -156,7 +156,7 @@
     <string name="title_sell">SELL</string>
     <string name="title_Sold">Sold</string>
     <string name="sold_item_details">SOLD ITEM DETAILS</string>
-    <string name="lbl_book_price">Book Price</string>
+    <string name="lbl_book_price">Item Price</string>
     <string name="order_quantity">Order Quantity</string>
     <string name="lbl_price_per_item">Price Per Item</string>
     <string name="err_msg_enter_bitsid_length">Enter a valid BITS ID</string>
