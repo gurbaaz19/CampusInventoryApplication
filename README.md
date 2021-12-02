@@ -13,44 +13,37 @@ This Android application was made to fulfill the partial requirements of the CSF
 
 ## Screenshots
 <p>
-<img align="left" src="Readme Images/Login%20Page.jpg" width="400px" hspace="10" vspace="20"/>
-
-<img align="right" src="Readme Images/Register%20User.jpg" width="400px" hspace="10" vspace="20"/>
+<img align="left" src="Readme Images/Login%20Page.jpg" width="350px" hspace="40"  vspace="60"/>
+<img align="right" src="Readme Images/Register%20User.jpg" width="350px" hspace="40"  vspace="60"/>
 </p>
   
 <p>
-<img align="left" src="Readme Images/Profile.jpg" width="400px" hspace="10" vspace="20"/>
-
-<img align="left" src="Readme Images/Forgot%20Password.jpg" width="400px" hspace="10" vspace="20"/>
+<img align="left" src="Readme Images/Profile.jpg" width="350px" hspace="40"  vspace="60"/>
+<img align="right" src="Readme Images/Forgot%20Password.jpg" width="350px" hspace="40"  vspace="60"/>
 </p>
 
   
 <p>
-<img align="left" src="Readme Images/Sold%20Item%20Details.jpg" width="400px" hspace="20" vspace="20"/>
-
-<img align="left" src="Readme Images/Edit%20Profile.jpg.jpg" width="400px" hspace="20" vspace="20"/>
+<img align="left" src="Readme Images/Sold%20Item%20Details.jpg" width="350px" hspace="40" vspace="60"/>
+<img align="right" src="Readme Images/Edit%20Profile.jpg" width="350px" hspace="40" vspace="60"/>
 </p>
  
 
-
 <p>
-<img align="left" src="Readme Images/Sale%20Page.jpg" width="400px" hspace="20" vspace="20"/>
-
-<img align="left" src="Readme Images/Place%20Order.jpg" width="400px" hspace="20" vspace="20"/>
+<img align="left" src="Readme Images/Sale%20Page.jpg" width="350px" hspace="40" vspace="60"/>
+<img align="right" src="Readme Images/Place%20Order.jpg" width="350px" hspace="40" vspace="60"/>
 </p>
 
 <p>
-<img align="left" src="Readme Images/Order%20Details.jpg" width="400px" hspace="20" vspace="20"/>
-
-<img align="left" src="Readme Readme%20Images/History.jpg" width="400px" hspace="20" vspace="20"/>
+<img align="left" src="Readme Images/Order%20Details.jpg" width="350px" hspace="40" vspace="60"/>
+<img align="right" src="Readme Images/History.jpg" width="350px" hspace="40" vspace="60"/>
 </p>
 
 <p>
-<img align="left" src="Readme Images/Buy%20Page.jpg" width="400px" hspace="10" vspace="20"/>
-
-<img align="left" src="Readme Images/Buy%20Page2.jpg.jpg" width="400px" hspace="10" vspace="20"/>
+<img align="left" src="Readme Images/Buy%20Page.jpg" width="350px" hspace="40" vspace="60"/>
+<img align="right" src="Readme Images/Buy%20Page2.jpg" width="350px" hspace="40" vspace="60"/>
 </p>
 
 <p>
-<img align="left" src="Readme Images/Cart.jpg" width="400px" hspace="20" vspace="20"/>
+<img align="center" src="Readme Images/Cart.jpg" width="350px" hspace="40" vspace="60"/>
 </p>
