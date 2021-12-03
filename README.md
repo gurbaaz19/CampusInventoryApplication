@@ -1,17 +1,9 @@
 # BITS MART
-OOP Project Group 8-2
-
-## Motivation
-```
-Text
-```
-## Working
-```
-Text
-```
+Our CSF13 Project is an Android Native Application called "BITS Mart".
+The app has been made with Object Oriented Concepts using the Kotlin language.
 
 ## Attached Link
-<a href="link">APK, App Demonstration and Report</a>
+<a href="https://drive.google.com/drive/folders/1H2drDjY_lAM5bk8Kqk_STZxgPgcj3CnJ?usp=sharing">APK, App Demonstration and Report</a>
 
 ## Screenshots
 <p>
