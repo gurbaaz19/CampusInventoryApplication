@@ -10,6 +10,11 @@ This Android application was made to fulfill the partial requirements of the CSF
   
 - Users can add items to cart and list products up for sale. The application also features a Google OAuth implementation for Sign-up, with the usage of Firebase for Data Management.
 
+The app has been made with Object Oriented Concepts using the Kotlin language.
+
+## Attached Link
+<a href="https://drive.google.com/drive/folders/1H2drDjY_lAM5bk8Kqk_STZxgPgcj3CnJ?usp=sharing">APK, App Demonstration and Report</a>
+
 
 ## Screenshots
 <p>
